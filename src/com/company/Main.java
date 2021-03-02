@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-
+/*
         int i = 123;
         boolean b = false;
 
@@ -24,5 +24,31 @@ public class Main {
 
         System.out.println(s.charAt(3));
 
+
+        for(int i = 0; i < 10; i++){
+            System.out.println(i);
+        }
+*/
+        int[] zbior = {2,3,1,4,2,6,3,7,9,0,1,2,3};
+
+
+        for(int i = 0; i < zbior.length; i++){
+            //System.out.println(zbior[i]);
+        }
+/*
+    i = 0
+
+    i < 13
+    ........
+    i++
+
+    i < 13
+    ........
+    i++
+
+ */
+        for(int liczba: zbior){
+            System.out.println(liczba);
+        }
     }
 }
