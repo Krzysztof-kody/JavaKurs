@@ -36,7 +36,7 @@ public class Powt {
     public static void main(String[] args){
         // czytanie();
         // nWypisz("Tekst", 10);
-
+        nLiczb(5);
     }
 
 }
