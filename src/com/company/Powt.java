@@ -32,11 +32,33 @@ public class Powt {
             System.out.print(s);
         }
     }
+    static void nLiczb(int n){
+        for(int i = 0;i<=n; i++){
+            System.out.print(i);
+        }
+    }
+
+    static void nLiczb2(int n){
+        int i = 0;
+        while(i <= n){
+            System.out.println(i);
+            i++;
+        }
+    }
+
+    static int suma(int a, int b){
+        return a + b;
+    }
 
     public static void main(String[] args){
         // czytanie();
         // nWypisz("Tekst", 10);
-        nLiczb(5);
+        //nLiczb2(5);
+
+        int c = 4;
+        int d = c + suma(5,3);
+        System.out.println(d);
+
     }
 
 }
